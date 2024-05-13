@@ -1,0 +1,67 @@
+body,html {
+    font-family: courier, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-image: url('burningpaper.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+  }
+  
+  .countdown {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+  }
+  
+  .timer {
+    color: white;
+    font-size: 48px;
+    background-color: #333;
+    border-radius: 2px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    
+  }
+  
+  .timer span {
+    font-size: 2rem;
+    margin: 0 10px;
+  }
+  
+  .labels {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  
+  .labels span {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  
+  .war-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation: war-background-animation 10s infinite alternate;
+  }
+  
+  @keyframes war-background-animation {
+    0% {
+      background-color: #5d4c2d; /* Cokelat Tua */
+    }
+    50% {
+      background-color: #696969; /* Abu-abu Tua */
+    }
+    100% {
+      background-color: #2f4f4f; /* Biru Tua */
+    }
+  }
